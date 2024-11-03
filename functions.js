@@ -8,7 +8,10 @@
  */
 function greet(name) {
   // Your code here
+  console.log(`Hello ${name}`)
 }
+
+
 
 /**
  * isOdd(n):
@@ -21,6 +24,10 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+return n%2 !==0 ;
+console.log(isOdd(7));
+console.log(isOdd(10))
+
 }
 
 /**
@@ -34,6 +41,11 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+  if(n === 0) return 0
+  return Math.ceil((n-1)/2);
+  
+console.log(oddsSmallerThan(7));
+console.log(oddsSmallerThan(15))
 }
 
 /**
